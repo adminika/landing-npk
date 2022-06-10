@@ -26,6 +26,8 @@
     <link rel="apple-touch-icon" sizes="167x167" href="./img/favicons/apple-touch-icon-167x167.png">
     <link
     rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon-180x180.png">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.min.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.min.js"></script>
     <link rel="stylesheet" href="./styles/main.min.css"/>
     <title>II Всероссийская научно-практическая конференция</title>
   </head>
@@ -100,16 +102,25 @@
   <section class="welcome">
 	<div class="container">
 		<div class="welcome__wrapper">
-			<h1 class="welcome__title title">
+			<div class="mouse-parallax-bg"></div>
+			<div class="mouse-parallax-fog-1"></div>
+			<div class="mouse-parallax-fog-2"></div>
+			<div class="mouse-parallax-fog-3"></div>
+			<div class="mouse-parallax-fog-4"></div>
+			<h1
+				class="welcome__title title"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+			>
 				<span>II Всероссийская</span>
 				<span>научно-практическая</span>
 				<span>конференция</span>
 			</h1>
-			<p class="welcome__subtitle">
+			<p class="welcome__subtitle" data-aos="fade-up" data-aos-duration="1500">
 				<span>Актуальные врачебные практики.</span>
 				<span>Постковидный синдром</span>
 			</p>
-			<div class="starting-date">
+			<div class="starting-date" data-aos="fade-right" data-aos-duration="1700">
 				<span>Пятница, 24 июня 2022</span>
 				<span>8:00 по МСК</span>
 			</div>
@@ -128,7 +139,7 @@
 	<section class="section-page about" id="about">
 	<div class="container">
 		<div class="content">
-			<div class="content__col">
+			<div class="content__col" data-aos="fade-right" data-aos-duration="1500">
 				<div
 					class="block content__block content__block--icon content__block--icon-1"
 				>
@@ -142,7 +153,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="content__col">
+			<div class="content__col" data-aos="fade-left" data-aos-duration="1500">
 				<div
 					class="block content__block content__block--icon content__block--icon-2"
 				>
@@ -162,7 +173,7 @@
 				</div>
 			</div>
 
-			<div class="content__col">
+			<div class="content__col" data-aos="fade-up" data-aos-duration="1500">
 				<h3 class="title col__title">
 					<span>Категории</span><span>участников</span>
 				</h3>
@@ -183,7 +194,7 @@
 				</div>
 			</div>
 
-			<div class="content__col">
+			<div class="content__col" data-aos="fade-up" data-aos-duration="2500">
 				<h3 class="title col__title"><span>Формы</span><span>участия</span></h3>
 				<div class="block content__block">
 					<div class="block__inner">
@@ -209,7 +220,11 @@
 		<h2 class="section__title title">Послушать доклады</h2>
 		<div class="content">
 			<div class="content__grid">
-				<div class="content__col">
+				<div
+					class="content__col"
+					data-aos="fade-up-right"
+					data-aos-duration="2000"
+				>
 					<div class="block__wrapper">
 						<div class="block content__block">
 							<div class="block__inner">
@@ -237,7 +252,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="content__col">
+				<div class="content__col" data-aos="fade-up" data-aos-duration="1500">
 					<div class="block__wrapper">
 						<div class="block content__block">
 							<div class="block__inner">
@@ -265,7 +280,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="content__col">
+				<div
+					class="content__col"
+					data-aos="fade-up-left"
+					data-aos-duration="2000"
+				>
 					<div class="block__wrapper">
 						<div class="block content__block">
 							<div class="block__inner">
@@ -304,7 +323,11 @@
 				</div>
 			</div>
 			<div class="content__flex">
-				<div class="block content__block">
+				<div
+					class="block content__block"
+					data-aos="zoom-in-up"
+					data-aos-duration="3000"
+				>
 					<div class="content__block-inner">
 						<p class="block__text--appeal">
 							<span>Чтобы послушать доклады обращайтесь</span
@@ -325,7 +348,11 @@
 	<div class="container">
 		<h2 class="section__title title">Выступить с докладом</h2>
 		<div class="content">
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -355,7 +382,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -388,7 +419,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -415,7 +450,11 @@
 				</div>
 			</div>
 
-			<div class="content__footnote">
+			<div
+				class="content__footnote"
+				data-aos="fade-left"
+				data-aos-duration="1500"
+			>
 				<h3 class="content__footnote-title">*Обязательно рецензирование:</h3>
 				<ul class="block__list">
 					<li class="block__list-item block__text">
@@ -427,7 +466,11 @@
 					</li>
 				</ul>
 			</div>
-			<div class="content__footnote">
+			<div
+				class="content__footnote"
+				data-aos="fade-right"
+				data-aos-duration="1500"
+			>
 				<h3 class="content__footnote-title">Платно (по запросу):</h3>
 				<ul class="block__list">
 					<li class="block__list-item block__text">
@@ -454,7 +497,11 @@
 	<div class="container">
 		<h2 class="section__title title">Опорная программа</h2>
 		<div class="content">
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -471,7 +518,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -491,7 +542,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -507,7 +562,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -527,7 +586,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -549,7 +612,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -567,7 +634,11 @@
 				</div>
 			</div>
 
-			<div class="block content__block">
+			<div
+				class="block content__block"
+				data-aos="fade-up"
+				data-aos-duration="1500"
+			>
 				<div class="block__flex">
 					<div class="block__left">
 						<div class="block__left-title">
@@ -595,6 +666,8 @@
 				class="register__link register__link--big"
 				target="_blank"
 				rel="noreferrer"
+				data-aos="zoom-out"
+				data-aos-duration="1500"
 				><span>ЗАРЕГИСТРИРОВАТЬСЯ</span></a
 			>
 			<a
@@ -602,6 +675,8 @@
 				class="register__link register__link--small"
 				target="_blank"
 				rel="noreferrer"
+				data-aos="zoom-out"
+				data-aos-duration="2500"
 				><span>ПОДРОБНАЯ ИНФОРМАЦИЯ</span></a
 			>
 		</div>
